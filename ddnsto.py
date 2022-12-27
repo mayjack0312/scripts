@@ -51,4 +51,4 @@ result_4 = json.loads(html_4.text)
 if len(result_4['uid'])>0:
     print('****白嫖成功*****'+'\n'+'到期时间：'+UTC2BJS(result_4['active_plan']["product_expired_at"]))
 else:
-    print('没有白嫖到！检查配置看看')
+    print('配置有误！请检查配置')
